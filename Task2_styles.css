@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+  }
+  
+  td {
+    margin: 10px 0;
+    color: red;
+    font-size: 14px;
+    text-align: left;
+  }
+
+  .tabs-panel tr:nth-child(odd) {
+    background-color: whitesmoke;
+  }
+
+  .tabs-panel tr:nth-child(even) {
+    background-color: lightblue;
+  }
+
+  .header-row {
+    text-align: left;
+    color: blue;
+    margin: 100px auto;
+    padding: 10px;
+    background-color: lightgrey;
+    border-radius: 10px;
+  }
+
+  

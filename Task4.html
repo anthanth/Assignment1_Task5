@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task4</title>
+    <script>
+		var animal = "dog";
+		function cat(){
+			// get the text field element
+			var displayField = document.getElementById("display");
+  
+			// show cat message
+			displayField.value = "User clicks cat!";
+            animal = cat;
+            var image = document.getElementById("animal");
+                image.src = "cat.jpg";
+            // cat image source: https://en.wikipedia.org/wiki/Cat#/media/File:Felis_catus-cat_on_snow.jpg        
+		}
+
+		function dog(){
+			// get the text field element
+			var displayField = document.getElementById("display");
+  
+			// show dog message
+			displayField.value = "User clicks dog!";
+            animal = dog;
+            var image = document.getElementById("animal");
+                image.src = "dog.jpg";
+            // dog image source: https://en.wikipedia.org/wiki/File:Black_Labrador_Retriever_-_Male_IMG_3323.jpg    
+		}
+        
+		function frog(){
+			// get the text field element
+			var displayField = document.getElementById("display");
+  
+			// show frog message
+			displayField.value = "User clicks frog!";
+            animal = frog;
+            var image = document.getElementById("animal");
+                image.src = "frog.jpg";
+            // frog image source:  https://en.wikipedia.org/wiki/File:Variegated_golden_frog_(Mantella_baroni)_Ranomafana.jpg   
+		}
+
+    </script>
+</head>
+<body>    
+    <br><br>     
+	<button onClick="cat()">Cat</button> 
+	<button onClick="dog()">Dog</button>
+	<button onClick="frog()">Frog</button>
+    <br>
+	<input id="display">
+    <br>
+    <br>
+    <img id="animal" src="dog.png" width="200px" />  
+    <br>
+
+  
+</body>
+</html>
